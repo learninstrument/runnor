@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Struktura Construction</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #1a5f7a;
+            --secondary-color: #f39c12;
+            --text-color: #333;
+            --light-bg: #f8f9fa;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: var(--text-color);
+        }
+        .hero {
+            background-color: var(--primary-color);
+            color: white;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        .btn-custom {
+            background-color: var(--secondary-color);
+            border: none;
+            padding: 10px 20px;
+            font-weight: bold;
+        }
+        .stats {
+            background-color: var(--light-bg);
+            padding: 50px 0;
+        }
+        .stats h3 {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        .stats p {
+            font-size: 1.1rem;
+            color: var(--text-color);
+        }
+        .section-title {
+            color: var(--primary-color);
+            font-weight: bold;
+            margin-bottom: 2rem;
+        }
+        .card {
+            border: none;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card-title {
+            color: var(--primary-color);
+            font-weight: bold;
+        }
+        .product-card {
+            border: none;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+        .testimonial {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light  fixed-top ">
+        <div class="container">
+            <a class="navbar-brand" href="#">Struktura</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center">
+                    <h1>Our Story</h1>
+                    <p>We are Struktura, a construction company dedicated to building your vision with precision and excellence.</p>
+                </div>
+                <div class="col-md-6 text-center">
+                           <img src="images/scene-construction-site-with-equipment.jpg" alt="Construction Site" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="stats">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <h3>10+</h3>
+                    <p>Years of Experience</p>
+                </div>
+                <div class="col-md-3">
+                    <h3>500+</h3>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="col-md-3">
+                    <h3>200+</h3>
+                    <p>Satisfied Clients</p>
+                </div>
+                <div class="col-md-3">
+                    <h3>90%</h3>
+                    <p>Client Retention Rate</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="team">
+        <div class="container">
+            <h2 class="section-title">Meet Our Team</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/portrait-smiling-man-person-looking-into-camera-while-working-remote-from-home-business-project-typing-financial-course-computer-businessman-sitting-desk-table-living-room-office.jpg" alt="Team Member 1" class="img-fluid">
+                        <h5 class="card-title">John Doe</h5>
+                        <p class="card-text">CEO & Founder</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/young-african-american-female-working-office-lady-white-blouse.jpg" alt="Team Member 2" class="img-fluid">
+                        <h5 class="card-title">Jane Smith</h5>
+                        <p class="card-text">Project Manager</p>
+                    </div>
+                </div>
+                
+                </div>
+            </div>
+        </header>
+    
+        <section class="stats">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-3">
+                        <h3>10+</h3>
+                        <p>Years of Experience</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>500+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>200+</h3>
+                        <p>Satisfied Clients</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>90%</h3>
+                        <p>Client Retention Rate</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="team">
+            <div class="container">
+                <h2 class="section-title">Meet Our Team</h2>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/portrait-smiling-man-person-looking-into-camera-while-working-remote-from-home-business-project-typing-financial-course-computer-businessman-sitting-desk-table-living-room-office.jpg" alt="Team Member 1" class="img-fluid">
+                            <h5 class="card-title">John Doe</h5>
+                            <p class="card-text">CEO & Founder</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/young-african-american-female-working-office-lady-white-blouse.jpg" alt="Team Member 2" class="img-fluid">
+                            <h5 class="card-title">Jane Smith</h5>
+                            <p class="card-text">Project Manager</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/cheerful-man-speaking-phone-office.jpg" alt="Team Member 3" class="img-fluid">
+                            <h5 class="card-title">Bob Johnson</h5>
+                            <p class="card-text">Construction Manager</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="testimonials">
+            <div class="container">
+                <h2 class="section-title">What Our Clients Say</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="testimonial">
+                            <p>"Struktura exceeded our expectations with their professionalism and attention to detail. We couldn't be happier with the final result."</p>
+                            <h5>— John Lee, Happy Client</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testimonial">
+                            <p>"The team at Struktura were a pleasure to work with. They were always responsive and kept us informed throughout the entire process."</p>
+                            <h5>— Emily Chen, Satisfied Client</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testimonial">
+                            <p>"We were impressed with Struktura's ability to bring our vision to life. Their expertise and craftsmanship are top-notch."</p>
+                            <h5>— Michael Brown, Delighted Client</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <footer>
+            <div class="container">
+                <p>&copy; 2023 Struktura Construction. All rights reserved.</p>
+            </div>
+        </footer>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+    </body>
+    </html>

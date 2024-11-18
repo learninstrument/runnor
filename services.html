@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Struktura Construction</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-9akVOktzOHN6N7snwfbeZEqF2VrLIx+/KQzH5Kocp5SVpnTPdzmjyAS06P6gRGDk/rTlSKFsM3FqizpDklUCQ==" crossorigin="anonymous">
+    <style>
+        /* Custom CSS */
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .navbar {
+            background-color: #1a5f7a;
+            padding: 1rem;
+        }
+        
+        .navbar-brand {
+            color: #fff;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        .nav-link {
+            color: #fff;
+            margin-right: 20px;
+        }
+        
+        .nav-link:hover {
+            color: #ccc;
+        }
+        
+        .hero {
+            background-color: #1a5f7a;
+            background-size: 100% 300px;
+            background-position: 0% 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        
+        .hero p {
+            font-size: 1.5rem;
+        }
+        
+        .services {
+            padding: 5rem 0;
+        }
+        
+        .card {
+            background-color: #fff;
+            padding: 2rem;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .card-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        .card-text {
+            font-size: 1rem;
+        }
+        
+        footer {
+            background-color:  #1a5f7a;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Struktura</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1>Our Services</h1>
+                    <p>We offer a wide range of construction services to meet your needs.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/working-housing-project.jpg" alt="Construction Services" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="services">
+        <div class="container">
+            <h2 class="section-title">What We Offer</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <i class="fas fa-hammer fa-3x"></i>
+                        <h5 class="card-title">General Contracting</h5>
+                        <p class="card-text">We provide comprehensive general contracting services for residential and commercial projects.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <i class="fas fa-pencil-ruler fa-3x"></i>
+                        <h5 class="card-title">Design-Build</h5>
+                        <p class="card-text">Our design-build services allow us to work closely with clients to bring their vision to life.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <i class="fas fa-truck fa-3x"></i>
+                        <h5 class="card-title">Construction Management</h5>
+                        <p class="card-text">We provide expert construction management services to ensure projects are completed on time and within budget.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Struktura Construction. All rights reserved.</p>
+        </div>
+    </footer>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js" integrity="sha512-ghJLVP2XMfRDTm+pMBVRnqYXR4"></script>
+    </body>
+    </html>
